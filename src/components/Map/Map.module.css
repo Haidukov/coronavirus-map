@@ -1,0 +1,6 @@
+.map {
+    display: block;
+    position: relative;
+    height: calc(100vh - 70px);
+    width: 100%;
+}

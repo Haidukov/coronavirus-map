@@ -1,0 +1,29 @@
+.container {
+   
+    display: flex;
+}
+
+.cell {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 1px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.deaths {
+    background-color: red;
+    color: white
+}
+
+.recovered {
+    background-color: green;
+    color: white;
+}
+
+.confirmed {
+    background-color: yellow;
+}

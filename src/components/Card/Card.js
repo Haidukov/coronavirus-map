@@ -3,11 +3,11 @@ import React from 'react';
 import styles from './Card.module.css';
 
 const Card = ({ country }) => (
-    <div>
+    <div data-testid='card'>
         <div className={styles.card}>
-            <div>Name: {country.name}</div>
-            <div>Confirmed: {country.mostRecent.confirmed}</div>
-            <div>Deaths: {country.mostRecent.deaths}</div>
+            <div data-testid='name'>Name: {country.name}</div>
+            <div data-testid='confirmed'>Confirmed: {country.mostRecent.confirmed}</div>
+            <div data-testid='deaths'>Deaths: {country.mostRecent.deaths}</div>
         </div>
     </div>
 );

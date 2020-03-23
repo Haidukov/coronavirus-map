@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card/> should render data 1`] = `
+<div>
+  <div
+    data-testid="card"
+  >
+    <div
+      class="card"
+    >
+      <div
+        data-testid="name"
+      >
+        Name: 
+        Ukraine
+      </div>
+      <div
+        data-testid="confirmed"
+      >
+        Confirmed: 
+        100
+      </div>
+      <div
+        data-testid="deaths"
+      >
+        Deaths: 
+        3
+      </div>
+    </div>
+  </div>
+</div>
+`;

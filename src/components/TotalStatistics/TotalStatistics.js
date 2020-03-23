@@ -7,15 +7,15 @@ const TotalStatistics = ({ totalConfirmed, totalRecovered, totalDeaths }) => {
         <div className={styles.container}>
             <div className={classNames(styles.cell, styles.confirmed)}>
                 <div className={styles.title}>Confirmed</div>
-                <div>{totalConfirmed}</div>
+                <div data-testid='confirmed'>{totalConfirmed}</div>
             </div>
             <div className={classNames(styles.cell, styles.recovered)}>
                 <div className={styles.title}>Recovered</div>
-                <div>{totalRecovered}</div>
+                <div data-testid='recovered'>{totalRecovered}</div>
             </div>
             <div className={classNames(styles.cell, styles.deaths)}>
                 <div className={styles.title}>Deaths</div>
-                <div>{totalDeaths}</div>
+                <div data-testid='deaths'>{totalDeaths}</div>
             </div>
         </div>
     );

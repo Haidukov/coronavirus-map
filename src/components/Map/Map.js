@@ -40,6 +40,7 @@ const Map = ({ center, zoom, countries }) => {
         const smallCircleSize = getDeathsInfectionsCircleSize(country);
         return (
             <Marker 
+                data-testid='marker'
                 key={index}
                 country={country}
                 lat={lat} 

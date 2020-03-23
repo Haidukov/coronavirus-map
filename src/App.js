@@ -14,9 +14,9 @@ const App = () => {
         totalDeaths 
     } = useStats();
 
-    if (!position || loading) return <LoadingScreen/>;
+    if (loading) return <LoadingScreen />;
 
-    if (error) return <div>Failed to fetch data</div>
+    if (error) return <div data-testid='error'>Failed to fetch data</div>
 
     return (
         <div>

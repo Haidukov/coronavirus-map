@@ -4,7 +4,7 @@ import { useQuery } from '@apollo/react-hooks';
 
 const sum = (list, callback) => list.reduce((result, current) => result + callback(current), 0);
 
-const fetchStats = gql`
+export const fetchStats = gql`
   {
     countries {
       name,
